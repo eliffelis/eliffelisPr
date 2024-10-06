@@ -58,17 +58,38 @@
   
   
   .color-box-container{
-    text-align:left;
     margin-top:20px;
   } 
-  .color-box {
+
+  .box {
     display:inline-block;
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background-color:#ff6347;
   }
-  .Populer{
+
+.box {
+  background-color:red;
+  width:25px;
+  height:25px;
+}
+
+.box2 {
+  background-color:#0000ff;
+}
+.box3 {
+  background-color:#FFE800;
+}
+.box4 {
+  background-color:#F9A108;
+}
+.box5 {
+  background-color:#9AF908;
+}
+
+
+
+  .populer{
     background:red;
     width:10%;
     color:white;
@@ -77,14 +98,7 @@
     left:-10px;
     font-size:14px;
   }
-  
-  .color-box {
-    background:red;
-    width:25px;
-    height:25px;
-  }
-  
-  
+ 
   section a:visited {
     color: #f00;
   }
